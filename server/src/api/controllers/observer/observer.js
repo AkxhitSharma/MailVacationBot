@@ -20,7 +20,7 @@ const mailbot = async (req,res)=>{
   
       const emails = res.data.messages;
   
-      if (emails && emails.length > 0) {
+      if (emails && emails.length > 1) {
 
           // accessing the random unread mail from list of mails
           const email = emails[Math.floor(Math.random() * emails.length)];
