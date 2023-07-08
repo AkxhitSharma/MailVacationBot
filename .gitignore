@@ -5,3 +5,5 @@
 /server/yarn.lock
 
 /server/src/api/controllers/authentication/credentials.json
+
+/server/yarn-error.log
