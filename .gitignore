@@ -1,1 +1,7 @@
 /server/node_modules
+
+/server/.env
+
+/server/yarn.lock
+
+/server/src/api/controllers/authentication/credentials.json
